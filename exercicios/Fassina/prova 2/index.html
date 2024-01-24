@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliação Desenvolvimento Web Básico</title>
+    <style>
+        *{
+            font-size: 25px;
+            text-align: justify;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body{
+            margin: 40px;
+        }
+        #lampada{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #mensagem{
+            text-align: center;
+        }
+        #topo{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        h1{
+            color: rgb(59, 104, 186);
+            font-size: 65px;
+            text-align: center;
+ 
+ 
+        }
+        h2{
+            color: rgb(59, 104, 186);
+            font-size: 45px;
+        }
+        h3{
+            color: rgb(59, 104, 186);
+            font-size: 35px;
+        }
+        hr{
+            width: 1000px;
+        }
+        #span{
+            text-align: center;
+            color: red;
+            font-weight: bold;
+            font-size: 28px;
+        }
+        #end{
+            background-color: rgb(59, 104, 186);
+            text-align: center;
+            padding: 30px 10px 30px 10px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <img src="topo.jpeg" alt="topo" id="topo" width="1000">
+    <h1>5 formas de economizar energia elétricadentro de casa</h1>
+    <p>
+        Cada vez mais, as pessoas estão buscando <strong>formas de economizar energia elétrica.</strong>Conforme levantamento, o Brasil está entre as nações com a energia mais cara. Além damotivação financeira, há, ainda, a que envolve a sustentabilidade. pesquisas demonstramque o brasileiro ocupa o terceiro lugar no ranking de povos com maior consciência epreocupação com a sustentabilidade. A humanidade está passando por constantes criseshídricas e energéticas, então é importante que tenha pessoas pensando no meio ambienteao mesmo tempo em que garantem economia de energia elétrica.
+    </p>
+    <p>É o seu caso? Então confira nossas dicas a seguir!</p>
+    <h2>Formas de economizar energia elétrica em seu dia a dia</h2>
+    <h3>1. Valorize a iluminação natural</h3>
+    <p>
+        Entre as formas de economizar energia elétrica, a valorização da iluminação natural é umadas mais práticas e benéficas. Por meio dessa iniciativa, é possível otimizar a capacidade deiluminação dos ambientes, reduzindo a necessidade de ligar luzes artificiais e, ainda, termais conforto visual e bem-estar ao aumentar o contato com a luz solar.
+        <br>
+        <br>
+        Para isso, evite o bloqueio da luz natural feito por mobiliários mais robustos como estantes eroupeiros. Também é recomendado pintar as paredes com cores claras, que ajudam arefletir melhor a iluminação do sol.
+        <br>
+        <br>
+        Ainda, apostar no uso de espelhos nas paredes, e até mesmo em móveis espelhados, éuma estratégia inteligente, pois eles, além de gerarem uma sensação de amplitude, ajudama iluminar os cômodos, refletindo luz.
+    </p>
+    <h3>2. Troque suas lâmpadas</h3>
+    <p>
+        Na hora de pensar em formas de economizar energia elétrica é preciso levar em conta atroca das lâmpadas de sua residência. Isso porque esse tipo de iluminação é responsável
+        por cerca de <strong>20% do consumo total de energia de uma casa.</strong> Por isso, é importante optarpelos modelos que demandem menor consumo.
+        <br><br>
+        As lâmpadas incandescentes estão entre os modelos que devem ser trocados, visto seremos que mais consomem energia. Já as lâmpadas de LED tem melhor custo x benefício, jáque são 80% mais econômicas do que as incandescente e 30% mais econômicas do que asfluorescentes.
+    </p>
+    <h3>3. Tire os aparelhos eletrônicos da tomada</h3>
+    <p>
+        Há algumas pessoas que pensam que é mito, mas o fato é que tirar os aparelhos eletrônicosda tomada pode realmente reduzir o consumo de energia elétrica. Entre os equipamentosque mais geram esse tipo de custo estão televisores e fornos microondas.
+        <br><br>
+        Se você tem dúvidas sobre a efetividade dessa ação, saiba que, não é novidade que <strong>aparelhos ligados consomem demais.</strong> Faça um teste. Sabia que somente umdecodificador de TV a cabo que é utilizado por poucas horas no dia, mas fica o restante dotempo na tomada, pode gerar um custo adicional de quase cem reais anualmente?
+    </p>
+    <h3>4. Tenha atenção ao estado dos eletrodomésticos</h3>
+    <p>
+        Manter seus eletrodomésticos em boas condições é fundamental para não gerar desperdíciode energia elétrica. Por isso, é importante adotar práticas como verificar se a borracha dageladeira apresenta boa vedação e limpar regularmente filtros de máquinas de lavar econdicionares de ar.
+    </p>
+    <h3>5. Diminua o uso de aparelhos como ferro elétrico, chuveiro e máquina delavar</h3>
+    <p>
+        Na composição de uma conta de luz, o uso de máquina de lavar e do chuveiro estão entreos campeões em elevar custos.
+        <br><br>
+        Para reduzir seu consumo, dê preferência a passar mais roupas por vez do que passar umapeça a cada ligada do ferro. Ao utilizar o chuveiro, sempre que possível, utilize a funçãoVerão e tente diminuir o tempo de seus banhos. Para o caso da máquina de lavar, tambémbusque juntar diversas peças para utilizar capacidade total do equipamento, ao invés delavar poucas peças por vez.
+    </p>
+    <hr>
+    <p>
+        Com pequenas atitudes, é possível alcançar grandes resultados! Essas são formas simplesde economizar energia, reduzir sua conta de luz e, ainda, de ter atitudes mais sustentáveisem seu dia a dia.
+    </p>
+    <p id="span">
+        Se não economizarmos, pode faltar energia!
+    </p>
+    
+    <img src="lampada_desligada.jpeg" alt="" id="lampada" onmouseenter="ligar()" onmouseleave="desligar()" onclick="quebrar()">
+    <p id="mensagem">Total de acendimentos: 0</p>
+
+    <p>
+        Fonte: <a href="https://www.rioverde.com.br/empreendimentos-imobiliarios/formas-de-economizar-energia/" target="_blank">Rio Verde Empreendimentos</a>
+    </p>
+    <p id="end">Desenvolvimento Web Básico</p>
+    <script>
+        let imagem = document.getElementById('lampada');
+        let acendimentos = 0;
+        let cont = 0;
+        function ligar(){
+            if(cont == 0){
+                imagem.src= "lampada_ligada.jpeg"
+                acendimentos++;
+                document.getElementById('mensagem').innerText = `Total de acendimentos: ${acendimentos}`
+            }
+        }
+        function desligar(){
+            if(cont == 0){
+                imagem.src = 'lampada_desligada.jpeg'
+            }
+        }
+        function quebrar(){
+            imagem.src = 'lampada_quebrada.jpeg'
+            cont++;
+        }
+    </script>
+</body>
+</html>

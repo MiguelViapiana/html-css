@@ -1,0 +1,32 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0px;
+    color: white;
+    text-align: center;
+}
+
+main{
+    display: flex;
+    height: 100vh;
+}
+
+nav{
+    background-color: orange;
+    width: 20vw;
+    line-height: 100vh;
+}
+
+header, footer{
+    background-color: cornflowerblue;
+    height: 20vh;
+    width: 80vw;
+    line-height: 20vh;
+}
+
+article{
+    background-color: blueviolet;
+    height: 60vh;
+    width: 80vw;
+    line-height: 60vh;
+}
