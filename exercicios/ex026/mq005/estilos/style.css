@@ -20,8 +20,10 @@ header >h1{
 }
 
 i#burger{
+    padding: 0px;
+    margin: 0px;
     background-color: rgb(70, 70, 70);
-    width: 97vw;
+    width: 100vw;
     display: block;
     color: white;
     text-align: center;
